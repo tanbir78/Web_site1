@@ -7,6 +7,10 @@
 }
 
 /* shared style  */
+.secondary-bg {
+    background-color: #FFF8F3;
+}
+
 .text-primary {
     color: rgba(253, 110, 10, 1);
 }
@@ -23,6 +27,18 @@
     padding: 18px 35px;
     border-radius: 5px;
     border: none;
+}
+
+.section-title {
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+
+.section-description {
+    font-size: 18px;
+    color: #757575;
+
 }
 
 /* header styles */
@@ -68,7 +84,7 @@ nav li a {
 }
 
 .banner-content {
-    max-width: 820px;
+    max-width: 580px;
 }
 
 .banner-greetings {
@@ -77,7 +93,7 @@ nav li a {
 }
 
 .banner-title {
-    font-size: 85px;
+    font-size: 60px;
     font-weight: bold;
 }
 
@@ -86,6 +102,36 @@ nav li a {
     /* font-weight: regular; */
 }
 
-.banner-proflile-pic {
+.banner-profile-pic {
     width: 584px;
 }
+
+/* main styles */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* about styles */
+.about {
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+}
+
+.bg-3 {
+    background-color: white;
+
+}
+
+.about-items {
+    display: flex;
+    justify-content: space-around;
+}
+
+.item-description {
+    font-weight: 600;
+}
+
+/* class 5 done */
